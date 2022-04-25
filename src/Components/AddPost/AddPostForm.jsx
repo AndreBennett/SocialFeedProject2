@@ -30,7 +30,7 @@ const AddPostForm = (props) => {
                 <label for='Post'>Post:</label>
                 <input type='post' className='form-control' id='exampleInputPost' placeholder='Enter Post' value={post} onChange={(event) => setPost(event.target.value) }/>   
             </div>
-           <button type = 'submit'>Create</button>
+           <button type='submit' className='btn btn-primary'>Create</button>
         </form>
     
      
